@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hover effects</title>
+		<script src="js/rellax.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel-"stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<body>
+
+	<button onclick="goBack()">Go Back</button>
+	<script type="text/javascript" src="rellax.js"></script>
+
+	<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+
+	<div class="section">
+
+		<div class="d1">
+			  <img src="Pics/2.png" width="100%"/>
+		</div>
+
+		<div class="d2">
+			  <img src="Pics/11.png" width="100%"/>
+		</div>
+
+		<div class="d3">
+			  <img src="Pics/3.png" width="100%"/>
+		</div>
+
+		<div class="d4">
+			  <img src="Pics/10.png" width="100%"/>
+		</div>
+
+		<div class="d5" >
+			  <img src="Pics/MSG.png" width="50%"/>
+		</div>
+
+		 <div class="d6" >
+			  <img src="Pics/DAFT%20LOGO.png" width="70%"/>
+		</div>
+
+
+
+		<div class="container-fluid">
+			<div class ="container">
+				<div class="row">
+						<div class="social">
+							<ul>
+								<li><a href="https://www.facebook.com/neville.cooper.77"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+
+					<div class="col-sm-4">
+						<div class="box">
+							<div class="imgBox">
+								<img src="Pics/img1.png" class="img-responsive">
+							</div>
+							<div class="content">
+								<h3> Colors</h3>
+								<p> blah blah blah</p>
+								<a href="#" class="btn-btn-defult
+								btnD"> Read More</a>
+							</div>
+						</div>
+					</div>
+						<div class="col-sm-4">
+							<div class="box">
+								<div class="imgBox">
+									<img src="Pics/img2.png" class="img-responsive">
+								</div>
+								<div class="content">
+									<h3> Scenes</h3>
+									<p> blah blah blah</p>
+									<a href="#" class="btn-btn-defult
+									btnD"> Read More</a>
+								</div>
+							</div>
+						</div>
+							<div class="col-sm-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="Pics/img3.png" class="img-responsive">
+									</div>
+									<div class="content">
+										<h3> 3Ds</h3>
+										<p> blah blah blah</p>
+										<a href="#" class="btn-btn-defult
+										btnD"> Read More</a>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<audio controls autoplay>
+	 <source src="sound/dope.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+	var object1 = $('.d2');
+	var obj2=$('.d3');
+	var obj3=$('.d4');
+	var obj4=$('.d5');
+	var obj5=$('.d6');
+	var obj6=$('.d1');
+
+	var layer=$('.section');
+
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * -1 / 400);
+		var valueY = (e.pageY * -1 / 100);
+
+		object1.css({
+			'transform':'translate3d(' +valueX+'px,'+ valueY+'px,0) rotate(0deg)'
+		});
+	});
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * -1 / 14);
+		var valueY = (e.pageY * -1 / 16);
+
+		obj2.css({
+			'transform':'translate3d(' +valueX+'px,'+ valueY+'px,0) rotate(10deg)'
+		});
+		});
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * -1 / 3);
+		var valueY = (e.pageY * -1 / 3);
+
+		obj3.css({
+			'transform':'translate3d(' +valueX+'px,'+ valueY+'px,0) rotate(5deg)'
+		});
+		});
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * -1 / 15);
+		var valueY = (e.pageY * -1 / 19);
+
+		obj4.css({
+			'transform':'translate3d(' +valueX+'px,'+ valueY+'px,0) rotate(0deg)'
+		});
+		});
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * -1 / 16);
+		var valueY = (e.pageY * -1 / 19);
+
+		obj5.css({
+			'transform':'translate3d('+ valueX + 'px,' + valueY + 'px,0) rotate(0deg)'
+		});
+	});
+	layer.mousemove(function(e){
+		var valueX = (e.pageX * 1 / 25);
+		var valueY = (e.pageY * 1 / 25);
+
+		obj6.css({
+			'transform':'translate3d('+ valueX + 'px,' + valueY + 'px,0) rotate(0deg)'
+		});
+	});
+	</script>
+</html>

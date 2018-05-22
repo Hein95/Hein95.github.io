@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="background">
+
+
+	<div class="rellax d1">
+				  <img src="Pics/2.png" width="70%"/>
+			</div>
+
+			<div class="rellax d2" data-rellax-speed="11">
+				  <img src="Pics/11.png" width="100%"/>
+			</div>
+
+			<div class="rellax d3" data-rellax-speed="20">
+				  <img src="Pics/3.png" width="100%"/>
+			</div>
+
+			<div class="rellax d4" data-rellax-speed="10">
+				  <img src="Pics/10.png" width="90%"/>
+			</div>
+
+			<div class="rellax d5" data-rellax-speed="4">
+				  <img src="Pics/MSG.png" width="50%"/>
+			</div>
+
+			 <div class="rellax d6" data-rellax-speed="10">
+				  <img src="Pics/DAFT%20LOGO.png" width="100%"/>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a href="https://www.facebook.com/neville.cooper.77"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+<div class="nav">
+	<a class= "a active" href="#">HOME</a>
+	<a class= "b" href="#">ABOUT</a>
+	<a class= "c" href="#">PROJECTS</a>
+	<a class= "d" href="#">CONTACT</a>
+	<a class= "e" href="#">BONUS</a>
+	<a class= "f" href="file:///C:/Users/HEIN/Desktop/Web-development/hein1.html">NEXT</a>
+	<a class= "g" href="https://localhost:63342/Sphere_collision/index.html?_ijt=qs90ue2pcickq6v2303g6dpd4k">Collision</a>
+
+</div>
+
+
+<div class="content">
+
+	<div class="home">
+		<h1>Hein</h1>
+		<h3> Front End Web Developer</h3>
+
+			<audio controls autoplay>
+			 <source src="sound/dope.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+
+
+	</div>
+
+
+	<div class="about">
+		<p><b>Hello World,</b><br>
+		I am a hobbyist on creating html pages with high class designs.
+		I love challenges and I'm graduating from <b>Union College</b>. The best part
+		about creating these websites is that, I enjoy this a lot. More importantly,
+		I am going to put most of my Computer graphic projects in here.<br></p>
+		<p>My github can be found here: <a class="btn-btn-defult
+		btnD" href="https://github.com/Hein95">Hein95</a></p>
+	</div>
+
+
+	<div class="projects">
+		<div class="image">
+			<img src="Pics/genera.png">
+			<a class="btn-btn-defult
+			btnD" href="https://github.com/">GAN</a>
+		</div>
+		<div class="image">
+			<img src="Pics/scene3.png">
+			<a class="btn-btn-defult
+			btnD" href="https://github.com/">RAY TRACING</a>
+		</div>
+		<div class="image">
+			<img src="Pics/p1.png">
+			<a class="btn-btn-defult
+			btnD" href="https://github.com/">COLLISION</a>
+		</div>
+	</div>
+
+	<div class="contact">
+		<div class="contactform">
+			<form action="hein.html" method="post">
+				<h1>Upload your message to the Cloud</h1>
+				<input type="text" name="" class="inputtext" placeholder="First Name">
+				<input type="text" name="" class="inputtext" placeholder="Last Name">
+				<input type="text" name="" class="inputtext" placeholder="Email">
+				<textarea cols="4" rows="6" class="inputmessage" placeholder="Your Message..."></textarea>
+				<input type="button" name="" class="submitbutton" value="Submit">
+			</form>
+		</div>
+
+	</div>
+	<div class="bonus">
+		<div class="hein">
+			<img src="Pics/img.jpg">
+		</div>
+		<div class="details">
+			<h2>Dedication is the KEY to everything!</h2>
+		</div>
+	</div>
+
+
+
+</div>
+
+</div>
+		<script type="text/javascript" src="rellax.js"></script>
+		<script>
+			var rellax = new Rellax('.rellax', {
+			// center: true
+			callback: function(position) {
+				// callback every position change
+				console.log(position);
+			}
+		  });
+		</script>
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('a').click(function(){
+			var selected = $(this);
+			$('a').removeClass('active');
+			$(selected).addClass('active');
+		});
+
+		var $a = $('.a'),
+		$b = $('.b'),
+		$c = $('.c'),
+		$d = $('.d'),
+		$e = $('.e'),
+		$f = $('.f'),
+		$g = $('.g'),
+
+		$home = $('.home '),
+		$about = $('.about'),
+		$projects= $('.projects'),
+		$contact = $('.contact'),
+		$bonus = $('.bonus'),
+		$next = $('.next'),
+		$lets = $('.lets');
+
+		$a.click(function(){
+			$home.fadeIn();
+			$about.fadeOut();
+			$projects.fadeOut();
+			$contact.fadeOut();
+			$bonus.fadeOut();
+			$next.fadeOut();
+			$lets.fadeOut();
+
+		});
+		$b.click(function(){
+			$about.fadeIn();
+			$home.fadeOut();
+			$projects.fadeOut();
+			$contact.fadeOut();
+			$bonus.fadeOut();
+			$next.fadeOut();
+			$lets.fadeOut();
+		});
+		$c.click(function(){
+			$projects.fadeIn();
+			$about.fadeOut();
+			$home.fadeOut();
+			$contact.fadeOut();
+			$bonus.fadeOut();
+			$next.fadeOut();
+			$lets.fadeOut();
+		});
+		$d.click(function(){
+			$contact.fadeIn();
+			$home.fadeOut();
+			$about.fadeOut();
+			$projects.fadeOut();
+			$bonus.fadeOut();
+			$next.fadeOut();
+			$lets.fadeOut();
+		});
+		$e.click(function(){
+			$bonus.fadeIn();
+			$home.fadeOut();
+			$about.fadeOut();
+			$projects.fadeOut();
+			$contact.fadeOut();
+			$next.fadeOut();
+			$lets.fadeOut();
+		});
+		$f.click(function(){
+			$next.fadeIn();
+			$home.fadeOut();
+			$about.fadeOut();
+			$projects.fadeOut();
+			$contact.fadeOut();
+			$bonus.fadeOut();
+			$lets.fadeOut();
+		});
+		$g.click(function(){
+			$lets.fadeIn();
+			$home.fadeOut();
+			$about.fadeOut();
+			$projects.fadeOut();
+			$contact.fadeOut();
+			$bonus.fadeOut();
+			$next.fadeOut();
+		});
+	});
+
+
+</script>
+
+</body>
+</html>
