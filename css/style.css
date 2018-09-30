@@ -268,9 +268,10 @@ a.active, .nav a:hover{
 	float: left;
 }
 
-.resume{
+.resume .new{
 	color: white;
 	padding: 10px 60px;
+	display: none;
 }
 
 .resume .embed{
