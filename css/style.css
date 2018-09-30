@@ -269,6 +269,7 @@ a.active, .nav a:hover{
 }
 
 .resume{
+	padding: 10px 60px;
 	display: none;
 }
 
