@@ -292,6 +292,9 @@ a.active, .nav a:hover{
 	float: none;
 	display: none;
 }
+.resume{
+	display: none;
+}
 .footer{
 	position: absolute;
 	width: 100%;
