@@ -269,7 +269,7 @@ a.active, .nav a:hover{
 }
 
 .resume{
-	display: none;
+	display: aria-hidden;
 }
 
 .image img{
