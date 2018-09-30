@@ -269,12 +269,12 @@ a.active, .nav a:hover{
 }
 
 .resume{
+	position: absolute;
+	width: 100%;
+	height: 600px
 	display: none;
 }
 
-.resume .embed{
-	float: right;
-}
 .image img{
 	width:100%;
 	transition: all ease 0.8s;
