@@ -273,8 +273,8 @@ a.active, .nav a:hover{
 	display: none;
 }
 
-.resume .btnD{
-	display: run-in;
+.resume .embed{
+	float: right;
 }
 
 .image img{
