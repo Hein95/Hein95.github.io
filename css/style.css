@@ -269,12 +269,12 @@ a.active, .nav a:hover{
 }
 
 .resume{
-	position: absolute;
+	
 	right: 100px;
 	top: 10px;
 	color: white;
 	padding: 10px 60px;
-	display: inherit;
+
 }
 
 .resume .embed{
