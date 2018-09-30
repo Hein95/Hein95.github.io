@@ -267,6 +267,14 @@ a.active, .nav a:hover{
 	margin: 8%;
 	float: left;
 }
+
+.resume{
+	display: none;
+}
+
+.resume .embed{
+	float: right;
+}
 .image img{
 	width:100%;
 	transition: all ease 0.8s;
@@ -292,9 +300,7 @@ a.active, .nav a:hover{
 	float: none;
 	display: none;
 }
-.resume{
-	display: none;
-}
+
 .footer{
 	position: absolute;
 	width: 100%;
