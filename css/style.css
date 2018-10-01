@@ -155,7 +155,7 @@ a.active, .nav a:hover{
 	height: 4px;
 	background: #5b0202;
 	transform-origin: bottom;
-	transform: skewX(-60deg);
+	transform: skewX(-58deg);
 }
 
 .bonus:after{
