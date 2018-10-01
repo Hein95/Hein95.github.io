@@ -233,6 +233,16 @@ a.active, .nav a:hover{
 	display: none;
 }
 
+.resume 	{
+	position:absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+}
+
 .about p{
 	font-size: 18px;
 	line-height: 28px;
@@ -267,15 +277,6 @@ a.active, .nav a:hover{
 	margin: 8%;
 	float: left;
 }
-
-.resume .new{
-	position: absolute;
-	color: white;
-	padding: 10px 60px;
-	display: none;
-}
-
-
 
 .image img{
 	width:100%;
