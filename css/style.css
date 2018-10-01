@@ -274,8 +274,9 @@ a.active, .nav a:hover{
 	display: none;
 }
 .projects .image{
-	width: 30%;
-	margin: 8%;
+	width: 40%;
+	margin: 10%;
+	margin-bottom: 20px;
 	float: left;
 }
 
