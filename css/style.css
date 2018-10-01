@@ -230,7 +230,8 @@ a.active, .nav a:hover{
 	color: white;
 	font-family: century gothic;
 	padding: 0 60px;
-	
+	display: none;
+
 }
 
 .resume {
