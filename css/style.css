@@ -234,7 +234,7 @@ a.active, .nav a:hover{
 
 }
 
-.resume .new embed{
+.resume .new {
 	position:absolute;
 	right: 0;
 	top: 10px;
