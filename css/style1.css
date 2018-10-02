@@ -101,38 +101,39 @@ body{
     margin-left: 950px;
 }
 
-
-.box{
-	position: center;
+.box1{
+	position:absolute;
 	width: 300px;
 	float: left;
 	height: 500px;
 	/*overflow: hidden;*/
 	border-radius: 20px;
+	top: 10px;
+	left: 1%;
 	background: #000;
 	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.7);
 	transition: 1s;
 	margin: 50px;
 
 }
-.box:hover{
+.box1:hover{
 	transform: translateY(-30px);
 }
-.box .imgBox{
+.box1 .imgBox{
 	position: relative;
 	border-radius: 200px;
 }
 
-.box .imgBox img{
+.box1 .imgBox img{
 	transition: 1s;
 }
 
-.box:hover .imgBox img{
+.box1:hover .imgBox img{
 	opacity: 0.5;
 	transition: 1s;
 
 }
-.box .content
+.box1 .content
 {
 	position: absolute;
 	bottom: -30px;
@@ -143,25 +144,25 @@ body{
 	opacity: 0;
 
 }
-.box:hover .content{
+.box1:hover .content{
 	bottom: 10px;
 	opacity: 0.9;
 }
 
-.box .content h3{
+.box1 .content h3{
 	font-size: 48px;
 	color: #fff;
 	font-weight: 700;
 
 }
 
-.box .content p{
+.box1 .content p{
 	font-size: 18px;
 	color: #fff;
 	font-weight: 400;
 }
 
-.box .content .btnD{
+.box1 .content .btnD{
 	border: none;
 	background: #fe1b70;
 	color: #fff;
@@ -170,7 +171,159 @@ body{
 	font-weight: 700;
 	transition: 1s;
 }
-.box .content .btnD:hover{
+.box1 .content .btnD:hover{
+	background: #f6fe1b;
+	color: rgba(0,0,0,0.7);
+}
+
+
+
+.box2{
+	position:absolute;
+	width: 300px;
+	float: left;
+	height: 500px;
+	/*overflow: hidden;*/
+	border-radius: 20px;
+	top: 20px;
+	left: 33%;
+	background: #000;
+	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.7);
+	transition: 1s;
+	margin: 50px;
+
+}
+.box2:hover{
+	transform: translateY(-30px);
+}
+.box2 .imgBox{
+	position: relative;
+	border-radius: 200px;
+}
+
+.box2 .imgBox img{
+	transition: 1s;
+}
+
+.box2:hover .imgBox img{
+	opacity: 0.5;
+	transition: 1s;
+
+}
+.box2 .content
+{
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	opacity: 0;
+
+}
+.box2:hover .content{
+	bottom: 10px;
+	opacity: 0.9;
+}
+
+.box2 .content h3{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+
+}
+
+.box2 .content p{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.box2 .content .btnD{
+	border: none;
+	background: #fe1b70;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	font-weight: 700;
+	transition: 1s;
+}
+.box2 .content .btnD:hover{
+	background: #f6fe1b;
+	color: rgba(0,0,0,0.7);
+}
+
+.box3{
+	position:absolute;
+	width: 300px;
+	float: left;
+	height: 500px;
+	/*overflow: hidden;*/
+	border-radius: 20px;
+	top: 10px;
+	left: 66%;
+	background: #000;
+	box-shadow: 0 25px 25px rgba(0, 0, 0, 0.7);
+	transition: 1s;
+	margin: 50px;
+
+}
+.box3:hover{
+	transform: translateY(-30px);
+}
+.box3 .imgBox{
+	position: relative;
+	border-radius: 200px;
+}
+
+.box3 .imgBox img{
+	transition: 1s;
+}
+
+.box3:hover .imgBox img{
+	opacity: 0.5;
+	transition: 1s;
+
+}
+.box3 .content
+{
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	opacity: 0;
+
+}
+.box3:hover .content{
+	bottom: 10px;
+	opacity: 0.9;
+}
+
+.box3 .content h3{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+
+}
+
+.box3 .content p{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.box3 .content .btnD{
+	border: none;
+	background: #fe1b70;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	font-weight: 700;
+	transition: 1s;
+}
+.box3 .content .btnD:hover{
 	background: #f6fe1b;
 	color: rgba(0,0,0,0.7);
 }
