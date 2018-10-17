@@ -84,13 +84,12 @@
 
 	<div class="contact">
 		<div class="contactform">
-			<form action="hein.html" method="post">
+			<form id= "contact-form" action="contact_handler.php" method="post">
 				<h1>Upload your message to the Cloud</h1>
-				<input type="text" name="" class="inputtext" placeholder="First Name">
-				<input type="text" name="" class="inputtext" placeholder="Last Name">
-				<input type="text" name="" class="inputtext" placeholder="Email">
-				<textarea cols="4" rows="6" class="inputmessage" placeholder="Your Message..."></textarea>
-				<input type="button" name="" class="submitbutton" value="Submit">
+				<input type="text" name="name" class="inputtext" placeholder="First Name">
+				<input type="text" name="email" class="inputtext" placeholder="Email">
+				<textarea name ="message" cols="4" rows="6" class="inputmessage" placeholder="Your Message..."></textarea>
+				<input type="submit"  class="submitbutton" value="Submit">
 			</form>
 		</div>
 
