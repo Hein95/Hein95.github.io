@@ -20,6 +20,12 @@ body{
 
 }
 
+.back-button{
+	background-color: #dc143c;
+	width: 200px;
+	height: 30px;
+}
+
 
 .social ul{
 	margin: 0;
