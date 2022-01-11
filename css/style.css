@@ -121,7 +121,10 @@ a.active, .nav a:hover{
 	font-weight: 500;
 	transition: 1s;
 }
-
+.image .btnD:hover{
+	background: #f6fe1b;
+	color: rgba(0,0,0,0.7);
+}
 .bonus{
 	position:absolute;
 	top: 50%;
@@ -287,10 +290,7 @@ a.active, .nav a:hover{
 	-webkit-transform: scale(1);
 }
 
-.image img:hover{
-	transform:scale(1.2);
-	-webkit-transform:scale(1.2);
-}
+
 
 .contact{
 	font-family: century gothic;
