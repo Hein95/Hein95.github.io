@@ -282,12 +282,7 @@ a.active, .nav a:hover{
 
 .image img{
 	width:100%;
-	transition: all ease 0.8s;
-	-webkit-transition: all ease 0.8s;
-	transform: translateY(15px);
-	-webkit-transform:translateY(15px);
-	transform: scale(1);
-	-webkit-transform: scale(1);
+	
 }
 
 
